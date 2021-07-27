@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul class="nav-ul">
-      <li class="nav-li" v-for="(item, index) in navData" :key="index">
+      <li class="nav-li" v-for="(item, index) in navData" :key="index"  @click="jumpLink(item)">
         <Poptip placement="right" trigger="hover" :transfer="true">
           <div class="top">
             <p style="float: left;margin-right: 5px;">
