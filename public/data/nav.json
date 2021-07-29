@@ -113,6 +113,12 @@
               "name": "Harbor",
               "desc": "我们的使命是成为 Kubernetes 值得信赖的云原生存储库",
               "link": "http://images.nancal.com:8000/"
+          },
+          {
+              "icon": "./static/images/spring.png",
+              "name": "数字主线",
+              "desc": "面向云原生微服务的高可用流控防护组件",
+              "link": "http://192.168.21.185/digitalthread/#/"
           }
       ]
   },
