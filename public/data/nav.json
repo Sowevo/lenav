@@ -1,6 +1,6 @@
 {
   "self": {
-      "title": "自己的开发环境",
+      "title": "本机开发环境",
       "name": "self",
       "icon": "ios-contacts-outline",
       "nav": [
@@ -35,6 +35,12 @@
               "name": "Sentinel",
               "desc": "面向云原生微服务的高可用流控防护组件",
               "link": "http://192.168.21.185:8858/"
+          },
+          {
+              "icon": "./static/images/spring.png",
+              "name": "数字主线",
+              "desc": "面向云原生微服务的高可用流控防护组件",
+              "link": "http://192.168.21.185/digitalthread/#/"
           }
       ]
   },
@@ -85,94 +91,28 @@
               "link": "http://192.168.5.213:31010/"
           },
           {
-              "icon": "./static/images/spring.png",
-              "name": "trade",
-              "desc": "后端交易模块",
-              "link": "http://127.0.0.1:26220"
+              "icon": "./static/images/sonarqube.svg",
+              "name": "SonarQube",
+              "desc": "代码质量检查",
+              "link": "http://192.168.5.213:31006"
           },
           {
-              "icon": "./static/images/tomcat.png",
-              "name": "promotion",
-              "desc": "运营推广",
-              "link": "http://127.0.0.1:26084"
+              "icon": "./static/images/sentinel.png",
+              "name": "Sentinel",
+              "desc": "面向云原生微服务的高可用流控防护组件",
+              "link": "http://192.168.5.213:31026/"
           },
           {
-              "icon": "./static/images/tomcat.png",
-              "name": "activity_h5",
-              "desc": "APP活动页面",
-              "link": "http://127.0.0.1:26086"
+              "icon": "./static/images/skywalking.png",
+              "name": "SkyWalking",
+              "desc": "分布式系统的应用程序性能监视工具",
+              "link": "http://192.168.5.213/skywalking"
           },
           {
-              "icon": "./static/images/spring.png",
-              "name": "activity_api",
-              "desc": "活动后端接口",
-              "link": "http://127.0.0.1:26383"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "payment",
-              "desc": "支付中心",
-              "link": "http://127.0.0.1:28000"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "payment_gw",
-              "desc": "支付中心h5页面网关接口",
-              "link": "http://127.0.0.1:28010"
-          },
-          {
-              "icon": "./static/images/nginx.svg",
-              "name": "payment_h5",
-              "desc": "支付中心h5页面",
-              "link": "http://127.0.0.1:28020"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "payment_callback",
-              "desc": "支付中心回调系统",
-              "link": "http://127.0.0.1:28030"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "openapi",
-              "desc": "对外交互，重构用户系统对接第三方",
-              "link": "http://127.0.0.1:21040"
-          },
-          {
-              "icon": "./static/images/tomcat.png",
-              "name": "sms",
-              "desc": "短信",
-              "link": "http://127.0.0.1:26030"
-          },
-          {
-              "icon": "./static/images/php.png",
-              "name": "php_api",
-              "desc": "php api接口",
-              "link": "http://127.0.0.1:26040"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_eureka",
-              "desc": "服务注册",
-              "link": "http://127.0.0.1:21000"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_apigateway",
-              "desc": "API网关(zuul)",
-              "link": "http://127.0.0.1:21010"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_mq",
-              "desc": "消息消费调度中心",
-              "link": "http://127.0.0.1:21020"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_scheduler",
-              "desc": "任务调度系统",
-              "link": "http://127.0.0.1:21030"
+              "icon": "./static/images/harbor.png",
+              "name": "Harbor",
+              "desc": "我们的使命是成为 Kubernetes 值得信赖的云原生存储库",
+              "link": "http://images.nancal.com:8000/"
           }
       ]
   },
