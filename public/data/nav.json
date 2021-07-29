@@ -39,7 +39,7 @@
           {
               "icon": "./static/images/spring.png",
               "name": "数字主线",
-              "desc": "面向云原生微服务的高可用流控防护组件",
+              "desc": "数字主线",
               "link": "http://192.168.21.185/digitalthread/#/"
           }
       ]
@@ -117,7 +117,7 @@
           {
               "icon": "./static/images/spring.png",
               "name": "数字主线",
-              "desc": "面向云原生微服务的高可用流控防护组件",
+              "desc": "数字主线",
               "link": "http://192.168.5.213/digitalthread/#/"
           }
       ]
