@@ -122,6 +122,12 @@
           },
           {
               "icon": "./static/images/spring.png",
+              "name": "开发运维管理平台",
+              "desc": "发版工具",
+              "link": "http://192.168.5.213/admin"
+          },
+          {
+              "icon": "./static/images/nancal.svg",
               "name": "数字主线",
               "desc": "数字主线",
               "link": "http://192.168.5.213/digitalthread/#/"
