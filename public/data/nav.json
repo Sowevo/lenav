@@ -80,7 +80,7 @@
           {
               "icon": "./static/images/jenkins.png",
               "name": "jenkins",
-              "desc": "Jenkins",
+              "desc": "开发环境Jenkins",
               "link": "http://192.168.5.217:8080/",
               "doc": "/data/docs/jenkins.md"
           },
@@ -122,7 +122,7 @@
           },
           {
               "icon": "./static/images/nancal.svg",
-              "name": "开发运维管理平台",
+              "name": "发版工具",
               "desc": "发版工具",
               "link": "http://192.168.5.213/admin"
           },
@@ -139,130 +139,77 @@
       "name": "test",
       "nav": [
           {
-              "icon": "./static/images/confluence.png",
-              "name": "test2",
-              "desc": "Test2环境详细信息",
-              "link": "http://127.0.0.1:8090/pages/viewpage.action?pageId=6127905"
+              "icon": "./static/images/gitea.png",
+              "name": "Gitea",
+              "desc": "Gitea",
+              "link": "http://192.168.5.216:3000"
           },
           {
-              "icon": "./static/images/logio.png",
-              "name": "logio",
-              "desc": "查看日志的, admin/logio",
-              "link": "http://127.0.0.1:28778"
+              "icon": "./static/images/zt-logo.png",
+              "name": "禅道",
+              "desc": "禅道",
+              "link": "http://192.168.5.216"
           },
           {
-              "icon": "./static/images/cat.ico",
-              "name": "cat",
-              "desc": "实时应用监控平台",
-              "link": "http://127.0.0.1:8080/cat/s/login"
+              "icon": "./static/images/aliyun.png",
+              "name": "Nacos",
+              "desc": "Nacos",
+              "link": "http://192.168.5.214:8848/nacos"
           },
           {
-              "icon": "./static/images/nginx.svg",
-              "name": "app_h5",
-              "desc": "app h5",
-              "link": "http://127.0.0.1:26230"
+              "icon": "./static/images/jenkins.png",
+              "name": "jenkins",
+              "desc": "测试环境Jenkins",
+              "link": "http://192.168.5.218:8080/",
+              "doc": "/data/docs/jenkins.md"
           },
           {
-              "icon": "./static/images/tomcat.png",
-              "name": "app_api",
-              "desc": "app后端接口",
-              "link": "http://127.0.0.1:26000"
+              "icon": "./static/images/kuboard.png",
+              "name": "Kuboard",
+              "desc": "Kuboard",
+              "link": "http://192.168.5.214:31002"
           },
           {
-              "icon": "./static/images/tomcat.png",
-              "name": "app_back",
-              "desc": "后台管理系统",
-              "link": "http://127.0.0.1:26010/back/"
+              "icon": "./static/images/yapi.png",
+              "name": "yapi",
+              "desc": "yapi",
+              "link": "http://192.168.5.213:31010/"
           },
           {
-              "icon": "./static/images/spring.png",
-              "name": "trade",
-              "desc": "后端交易模块",
-              "link": "http://127.0.0.1:26220"
+              "icon": "./static/images/sonarqube.svg",
+              "name": "SonarQube",
+              "desc": "代码质量检查",
+              "link": "http://192.168.5.214:31006"
           },
           {
-              "icon": "./static/images/tomcat.png",
-              "name": "promotion",
-              "desc": "运营推广",
-              "link": "http://127.0.0.1:26084"
+              "icon": "./static/images/sentinel.png",
+              "name": "Sentinel",
+              "desc": "面向云原生微服务的高可用流控防护组件",
+              "link": "http://192.168.5.214:31026/"
           },
           {
-              "icon": "./static/images/tomcat.png",
-              "name": "activity_h5",
-              "desc": "APP活动页面",
-              "link": "http://127.0.0.1:26086"
+              "icon": "./static/images/skywalking.png",
+              "name": "SkyWalking",
+              "desc": "分布式系统的应用程序性能监视工具",
+              "link": "http://192.168.5.214/skywalking"
           },
           {
-              "icon": "./static/images/spring.png",
-              "name": "activity_api",
-              "desc": "活动后端接口",
-              "link": "http://127.0.0.1:26383"
+              "icon": "./static/images/harbor.png",
+              "name": "Harbor",
+              "desc": "我们的使命是成为 Kubernetes 值得信赖的云原生存储库",
+              "link": "http://images.nancal.com:8000/"
           },
           {
-              "icon": "./static/images/spring.png",
-              "name": "payment",
-              "desc": "支付中心",
-              "link": "http://127.0.0.1:28000"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "payment_gw",
-              "desc": "支付中心h5页面网关接口",
-              "link": "http://127.0.0.1:28010"
-          },
-          {
-              "icon": "./static/images/nginx.svg",
-              "name": "payment_h5",
-              "desc": "支付中心h5页面",
-              "link": "http://127.0.0.1:28020"
+              "icon": "./static/images/nancal.svg",
+              "name": "发版工具",
+              "desc": "发版工具",
+              "link": "http://192.168.5.214/admin"
           },
           {
               "icon": "./static/images/spring.png",
-              "name": "payment_callback",
-              "desc": "支付中心回调系统",
-              "link": "http://127.0.0.1:28030"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "openapi",
-              "desc": "对外交互，重构用户系统对接第三方",
-              "link": "http://127.0.0.1:21040"
-          },
-          {
-              "icon": "./static/images/tomcat.png",
-              "name": "sms",
-              "desc": "短信",
-              "link": "http://127.0.0.1:26030"
-          },
-          {
-              "icon": "./static/images/php.png",
-              "name": "php_api",
-              "desc": "php api接口",
-              "link": "http://127.0.0.1:26040"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_eureka",
-              "desc": "服务注册",
-              "link": "http://127.0.0.1:21000"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_apigateway",
-              "desc": "API网关(zuul)",
-              "link": "http://127.0.0.1:21010"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_mq",
-              "desc": "消息消费调度中心",
-              "link": "http://127.0.0.1:21020"
-          },
-          {
-              "icon": "./static/images/spring.png",
-              "name": "component_scheduler",
-              "desc": "任务调度系统",
-              "link": "http://127.0.0.1:21030"
+              "name": "数字主线",
+              "desc": "数字主线",
+              "link": "http://192.168.5.214/digitalthread/#/"
           }
       ]
   }
